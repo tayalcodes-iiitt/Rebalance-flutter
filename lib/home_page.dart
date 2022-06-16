@@ -69,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text('Text Templates'),
         ),
         body: Container(
+          child: SingleChildScrollView( 
           child: Column(
             children: [
               Padding(
@@ -110,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
               }),
             ],
           ),
-        ));
+        )));
   }
 }
 
